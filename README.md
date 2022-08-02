@@ -11,12 +11,14 @@ This is a simple to use weather application that lets a user search for weather 
 - Bootstrap
 - JavaScript
 - Open Weather API
-- Font Awesome
 
 ## Deployment
 
 Deployed using GitHub Pages at:
 - [Weather Outlook Website](https://ckoehler16.github.io/Weather-Outlook/)
+
+![screenshot1](./assets/images/screenshot1.png)
+![screenshot2](./assets/images/screenshot2.png)
 
 ## Contribution
 

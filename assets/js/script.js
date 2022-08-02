@@ -164,7 +164,7 @@ var displayFiveDayForecast = function (weather) {
 
         // create a new div for future weather data
         var futureDay = document.createElement("div");
-        futureDay.classList = "card m-3";
+        futureDay.classList = "card me-2";
 
         // add the date to the future weather
         var futureDate = document.createElement("h5");
@@ -192,7 +192,7 @@ var displayFiveDayForecast = function (weather) {
 
         // add the wind speed to the future weather
         var futureWindSpeed = document.createElement("span");
-        futureWindSpeed.childList = "card-body";
+        futureWindSpeed.classList = "card-body";
         futureWindSpeed.textContent = "Wind Speed: " + dailyWeather.wind.speed + " mph";
         futureDay.appendChild(futureWindSpeed);
 
